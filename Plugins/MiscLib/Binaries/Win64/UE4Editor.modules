@@ -1,8 +1,0 @@
-{
-	"BuildId": "17155196",
-	"Modules": 
-	{
-		"AnimNode": "UE4Editor-AnimNode.dll",
-		"RuntimeMiscLib": "UE4Editor-RuntimeMiscLib.dll"
-	}
-}

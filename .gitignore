@@ -13,3 +13,46 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+*.uproject.DotSettings.user
+
+# Remove a bunch of stuff so GUI based git interfaces aren't so laggy
+
+# Other Unreal Engine files that shouldn't be included
+**/Binaries/Win64/*
+Packaged/*
+# Game files that shouldn't be included
+Content/L10N/*
+Content/Astrea/*
+Content/Collections/*
+Content/Developers/*
+Content/Xrd777/Characters/Common/*
+Content/Xrd777/Characters/Data/*
+Content/Xrd777/Characters/Enemy/*
+Content/Xrd777/Characters/NPC/*
+Content/Xrd777/Characters/Player/**/Anm*
+Content/Xrd777/Characters/Player/**/MI_PC*
+Content/Xrd777/Characters/Player/**/SK_PC*
+Content/Xrd777/Characters/Player/**/T_PC*
+Content/Xrd777/Characters/Sub/**/Anm*
+Content/Xrd777/Characters/Sub/**/*/MI_SC*
+Content/Xrd777/Characters/Sub/**/*/SK_SC*
+Content/Xrd777/Characters/Sub/**/*/T_SC*
+Content/Xrd777/Characters/Mob/**/*
+Content/Xrd777/Environments/*
+Content/Xrd777/Events/**/*
+Content/Xrd777/Field/Data/DataAsset/*
+Content/Xrd777/Field/Resource/*
+Content/Xrd777/Maps/*
+Content/Xrd777/Props/*
+Content/Xrd777/CriData/CueSheet/Event
+Content/Xrd777/UI/Bustup/*
+Content/Xrd777/UI/Camp/*
+Content/Xrd777/UI/Title/*
+
+/Plugins/**/Binaries/Win64/*
+
+Plugins/**/Binaries/Win64/**
+Plugins/CriWare/*
+Plugins/CriWareCinematics/*
+Plugins/JsonAsAsset/*
+Binaries/Win64/**
